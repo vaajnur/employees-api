@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+*~
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+credentials*.json
+
+# Logs and runtime
+*.log
+logs/
+/tmp/
+*.pid
+
+# PHP
+vendor/
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# Local / deploy helpers
+deploy.py
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archives and backups
+*.tar
+*.tar.gz
+*.zip
+*.bak
+*~
